@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CA96C9C32AFF8A24004F7D6A /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA96C9C22AFF8A24004F7D6A /* InfoView.swift */; };
 		CAAD66DD2AFEE2C400267591 /* personalCardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAAD66DC2AFEE2C400267591 /* personalCardApp.swift */; };
 		CAAD66DF2AFEE2C400267591 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAAD66DE2AFEE2C400267591 /* ContentView.swift */; };
 		CAAD66E12AFEE2C500267591 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAAD66E02AFEE2C500267591 /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CA96C9C22AFF8A24004F7D6A /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 		CAAD66D92AFEE2C400267591 /* personalCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = personalCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAAD66DC2AFEE2C400267591 /* personalCardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = personalCardApp.swift; sourceTree = "<group>"; };
 		CAAD66DE2AFEE2C400267591 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +46,8 @@
 		CAAD66F32AFEE2C600267591 /* personalCardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = personalCardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAAD66F72AFEE2C600267591 /* personalCardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = personalCardUITests.swift; sourceTree = "<group>"; };
 		CAAD66F92AFEE2C600267591 /* personalCardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = personalCardUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CAAD67072AFEE5E900267591 /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		CAAD67082AFEE94700267591 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +98,13 @@
 		CAAD66DB2AFEE2C400267591 /* personalCard */ = {
 			isa = PBXGroup;
 			children = (
+				CAAD67082AFEE94700267591 /* Info.plist */,
 				CAAD66DC2AFEE2C400267591 /* personalCardApp.swift */,
+				CAAD67072AFEE5E900267591 /* Pacifico-Regular.ttf */,
 				CAAD66DE2AFEE2C400267591 /* ContentView.swift */,
 				CAAD66E02AFEE2C500267591 /* Assets.xcassets */,
 				CAAD66E22AFEE2C500267591 /* Preview Content */,
+				CA96C9C22AFF8A24004F7D6A /* InfoView.swift */,
 			);
 			path = personalCard;
 			sourceTree = "<group>";
@@ -258,6 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CAAD66DF2AFEE2C400267591 /* ContentView.swift in Sources */,
+				CA96C9C32AFF8A24004F7D6A /* InfoView.swift in Sources */,
 				CAAD66DD2AFEE2C400267591 /* personalCardApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -425,6 +433,7 @@
 				DEVELOPMENT_TEAM = DDX45LBBX3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = personalCard/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -454,6 +463,7 @@
 				DEVELOPMENT_TEAM = DDX45LBBX3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = personalCard/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
